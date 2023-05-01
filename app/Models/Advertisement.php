@@ -5,9 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Advertisement extends Model
 {
-    // use HasFactory;\
-    public $timestamps=false;
-    protected $table='User';
+    use HasFactory;
 }
